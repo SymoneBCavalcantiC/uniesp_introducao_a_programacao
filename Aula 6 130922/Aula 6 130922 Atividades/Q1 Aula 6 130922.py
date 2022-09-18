@@ -5,6 +5,6 @@ for num in range(1000, 2001):
         print(num)
 
 
-# Questão 2 Faça um programa que mostre as tabuadas dos números de 1 a 10
+
 
 
