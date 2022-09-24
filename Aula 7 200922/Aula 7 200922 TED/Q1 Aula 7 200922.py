@@ -4,10 +4,10 @@
 
 num = (int(input("Digite o número de maçãs que deseja comprar: ")))
 
-if 0 < num < 12:
+if num > 0 and num < 12:
     valor = num * 1.30
     print(f"O custo total pela compra de {num} maçãs é: R$ {valor}")
-elif num >= 12 :
+elif num >= 12:
     valor = num * 1
     print(f"O custo total pela compra de {num} maçãs é: R$ {valor}")
 
