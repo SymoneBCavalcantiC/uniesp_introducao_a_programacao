@@ -1,9 +1,6 @@
 # Faça um algoritmo para ler um vetor de 30 números. Após isto, ler mais um número qualquer, 
 # calcular e escrever quantas vezes esse número aparece no vetor.
 
-# lista = []
-# num = range(0,31)
-# print(num)
 
 from random import randint
 
