@@ -4,5 +4,12 @@
 
 clubes = []
 
-for clube in clubes:
+for clube in range(10):
     clubes.append(str(input(f"Digite o nome do clube: ")))
+
+busca = (str(input("Digite o nome do clube que deseja buscar: ")))
+
+if busca in clubes:
+    print(f"ACHEI! {busca} está na lista de clubes!")
+else:
+    print(f"NÃO ACHEI! {busca} não está na lista de clubes!")
