@@ -13,4 +13,6 @@ print(vetor)
 busca = (int(input("Qual número deseja buscar no vetor? ")))
 
 if busca in vetor:
-    print(vetor.count(busca))
+    print(f"O número {busca} aparece {vetor.count(busca)} vezes na lista.")
+else:
+    print(f"O número {busca} não aparece na lista.")
